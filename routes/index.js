@@ -6,7 +6,7 @@ var router = express.Router();
 /* GET home page. */
 
 router.get('/', function(req, res) {
-  res.send('Ok!');
+  res.send('Hello World');
 });
 
 module.exports = router;
