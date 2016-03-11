@@ -9,7 +9,7 @@ describe('Index controller', function() {
       .get('http://localhost:9000/')
       .end(function(err, res) {
         expect(res.status).to.equal(200);
-        expect(res.text).to.equal('Hello World');
+        expect(res.text).to.equal('Hello World!!');
         done();
       });
   });
